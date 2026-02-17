@@ -39,6 +39,11 @@ public class App {
                 super(nama);
                 this.jariJari = jariJari;
             }
+
+            @Override
+            public void luas() {
+                System.out.println(Math.PI * jariJari * jariJari);
+            }
         }
     }
 }
